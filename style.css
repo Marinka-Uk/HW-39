@@ -1,0 +1,31 @@
+.container{
+    width: 1440px;
+    position: relative;
+}
+
+ul,
+p,
+h1,
+h2
+{
+text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.item{
+position: absolute;
+top: 64px;
+left: 684px;
+
+}
+
+.hero{
+    background-image: url(./backgound.jpg) ;
+    width: 1440px;
+height: 619px;
+flex-shrink: 0;
+background: linear-gradient(0deg, rgba(23, 16, 16, 0.60) 0%, rgba(23, 16, 16, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+
