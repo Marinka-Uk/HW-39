@@ -172,6 +172,12 @@ font-size: 40px;
 font-weight: 700;
 
 }
+
+.ip-2{
+  margin-bottom: 42.78px;
+  margin-top: 29px;
+  margin-right: 197px;
+}
 .p-item{
   color:  #737373;
 
@@ -267,4 +273,21 @@ font-size: 12px;
 font-weight: 700;
 width: 190px;
 height:18px ;
+}
+.app-works{
+  position: relative;
+}
+.works-list{
+  position: absolute;
+  top: 328px;
+  right: 161px;
+}
+
+.shop{
+  position: relative;
+}
+.shop-list{
+  position: absolute;
+  top: 134px;
+  left: 174px;
 }
