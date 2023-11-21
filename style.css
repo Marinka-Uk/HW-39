@@ -33,16 +33,18 @@ text-decoration: none;
 }
 
 .eats{
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 49.52px;
+  padding-bottom: 41.27px;
+  padding-left:90px ;
 }
 .item-list{
   padding-top: 32px;
   padding-bottom: 32px;
+  
 }
 .hero{
   background: url(./backgound.jpg), lightgray 50% / cover no-repeat;
-
+padding-bottom: 162px;
 }
 .app{
   color: #F6F6F6;
