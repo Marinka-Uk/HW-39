@@ -10,6 +10,7 @@ text-decoration: none;
   margin: 0;
 }
 header .item{
+  position: relative;
   display: flex;
   justify-content: space-around;
   color: #FA4A0C;
@@ -22,16 +23,35 @@ header .item{
   line-height: 28px; 
   letter-spacing: 0.2px;
 }
-
+.head{
+  display: flex;
+  align-items: center;
+}
 .eats{
   padding-top: 49.52px;
   padding-bottom: 41.27px;
   padding-left:90px ;
+  box-sizing: content-box;
+}
+
+.item{
+position: absolute;
+left: 475px;
 }
 .item-list .item{
   padding-top: 32px;
   padding-bottom: 32px;
   
+}
+.i-link{
+color: var(--text, #252B42);
+text-align: center;
+margin-left: 94px;
+}
+
+.i-link:hover,
+.i-link:focus{
+ color: #FA4A0C;
 }
 .hero{
   background: url(./backgound.jpg), lightgray 50%;
@@ -247,6 +267,7 @@ footer{
   padding-top: 112.92px;
   margin-left: 129.5px;
   padding-bottom: 58.77px;
+  box-sizing: content-box;
 }
 
 .last-link{
